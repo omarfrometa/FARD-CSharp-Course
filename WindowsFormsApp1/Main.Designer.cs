@@ -74,6 +74,7 @@
             this.helpToolStripButton = new System.Windows.Forms.ToolStripButton();
             this.administrationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contactsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.lugarDeNacimientoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
@@ -439,7 +440,8 @@
             // administrationToolStripMenuItem
             // 
             this.administrationToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.contactsToolStripMenuItem});
+            this.contactsToolStripMenuItem,
+            this.lugarDeNacimientoToolStripMenuItem});
             this.administrationToolStripMenuItem.Name = "administrationToolStripMenuItem";
             this.administrationToolStripMenuItem.Size = new System.Drawing.Size(121, 24);
             this.administrationToolStripMenuItem.Text = "Administration";
@@ -450,6 +452,13 @@
             this.contactsToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.contactsToolStripMenuItem.Text = "Contacts";
             this.contactsToolStripMenuItem.Click += new System.EventHandler(this.contactsToolStripMenuItem_Click);
+            // 
+            // lugarDeNacimientoToolStripMenuItem
+            // 
+            this.lugarDeNacimientoToolStripMenuItem.Name = "lugarDeNacimientoToolStripMenuItem";
+            this.lugarDeNacimientoToolStripMenuItem.Size = new System.Drawing.Size(231, 26);
+            this.lugarDeNacimientoToolStripMenuItem.Text = "Lugar de Nacimiento";
+            this.lugarDeNacimientoToolStripMenuItem.Click += new System.EventHandler(this.lugarDeNacimientoToolStripMenuItem_Click);
             // 
             // Main
             // 
@@ -520,5 +529,6 @@
         private System.Windows.Forms.ToolStripButton pasteToolStripButton;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator7;
         private System.Windows.Forms.ToolStripButton helpToolStripButton;
+        private System.Windows.Forms.ToolStripMenuItem lugarDeNacimientoToolStripMenuItem;
     }
 }

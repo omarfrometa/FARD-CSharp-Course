@@ -21,13 +21,19 @@ namespace WindowsFormsApp1
 
         private void contactsToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Contact contactForm = new Contact();
-            contactForm.Show();
+            Contact _form = new Contact();
+            _form.Show();
         }
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void lugarDeNacimientoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            LugarNacimiento _form = new LugarNacimiento();
+            _form.Show();
         }
     }
 }
